@@ -211,4 +211,4 @@ def generate_image(
 # Run the server
 if __name__ == "__main__":
     print("Starting MCP DALL-E Server...")
-    mcp.run(transport='sse')
+    mcp.run(transport='stdio')

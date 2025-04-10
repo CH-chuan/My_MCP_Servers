@@ -98,11 +98,18 @@ cp .env.example .env
 
 ### Starting the Server
 
-Run the server with:
+Run the server with to check if it works:
 
 ```bash
 mcp dev server.py
 ```
+
+### When actually using it
+```bash
+nohup uv run python server.py > server.log 2>&1 &
+```
+
+And the url will appear, you can then use it in your MCP client.
 
 ### Using the Image Generation Tool
 
